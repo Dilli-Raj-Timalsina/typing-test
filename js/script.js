@@ -13,6 +13,7 @@ let timer,
   timeLeft = maxTime,
   charIndex = (mistakes = isTyping = 0);
 
+//fuction which displays paragrah randomly..
 function loadParagraph() {
   const ranIndex = Math.floor(Math.random() * paragraphs.length);
   typingText.innerHTML = "";
